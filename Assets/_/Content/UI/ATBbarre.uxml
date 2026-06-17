@@ -1,0 +1,18 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/_/Content/UI/ATBbarre.uss?fileID=7433441132597879392&amp;guid=fbf3fb2b0f4a1924396c88df195068f6&amp;type=3#ATBbarre"/>
+    <ui:VisualElement name="ConainerATB">
+        <ui:VisualElement name="Renderer">
+            <ui:VisualElement name="WaitZone">
+                <ui:Label text="WAIT" name="WaitLabel"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="CastZone">
+                <ui:Label text="CAST" name="CastLabel"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="ActionPanel">
+            <ui:Button name="AttackButton">
+                <ui:Label text="Attack" name="AttackButton" emoji-fallback-support="false" double-click-selects-word="false"/>
+            </ui:Button>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

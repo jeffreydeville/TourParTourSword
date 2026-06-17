@@ -1,0 +1,17 @@
+{
+    "name": "PlayerController.Runtime",
+    "rootNamespace": "PlayerController.Runtime",
+    "references": [
+        "Unity.InputSystem",
+        "PlayerStatistique.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

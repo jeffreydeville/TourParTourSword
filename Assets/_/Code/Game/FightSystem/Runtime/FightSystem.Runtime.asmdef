@@ -1,0 +1,17 @@
+{
+    "name": "FightSystem.Runtime",
+    "rootNamespace": "FightSystem.Runtime",
+    "references": [
+        "GUID:3400a91ba33c39c40b144a67fc0a2870",
+        "GUID:e3036a7de115edb44be2ea1463702517"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
