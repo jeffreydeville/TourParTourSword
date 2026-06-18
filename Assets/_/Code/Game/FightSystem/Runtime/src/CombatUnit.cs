@@ -40,7 +40,7 @@ namespace FightSystem.Runtime
         {
             if (State == CombatState.Acting) return;
 
-            Progress += Time.unscaledDeltaTime * _statistique.m_attackSpeed * 0.1f;
+            Progress += deltaTime * _statistique.m_attackSpeed * 0.1f;
             Progress = Mathf.Clamp01(Progress);
 
             if (Progress >= 0.75f && State == CombatState.Waiting)

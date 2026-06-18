@@ -16,14 +16,16 @@
 #WaitZone {
     width: 75%;
     height: 100%;
-    background-color: rgba(50, 150, 255, 0.5);
+    background-color: rgba(50, 150, 255, 0.8);
 }
 
 #CastZone {
     width: 25%;
     height: 100%;
-    background-color: rgba(255, 50, 50, 0.5);
+    background-color: rgba(255, 50, 50, 0.8);
+    
 }
+
 #WaitLabel {
     position: absolute;
     top: 50%;
@@ -31,6 +33,7 @@
     translate: -50% -50%;
     color: white;
     font-size: 12px;
+    
 }
 
 #CastLabel {
@@ -41,11 +44,12 @@
     color: white;
     font-size: 12px;
 }
+
 #ActionPanel {
     position: absolute;
     top: 150px;
     left: -50px;
-    width: 150px;
+    width: 250px;
     height: 100px;
     border-radius: 30px;
     background-color: rgba(200, 15, 100, 0.8);
@@ -53,11 +57,32 @@
     align-items: center;
 }
 
-#AttackButton {
-    width: 90%;
-    height: 90%;
+Button {
+    width: 150px;
+    height: 60px;
     font-size: 16px;
     align-self: center;
     border-radius: 20px;
     -unity-font-style: bold;
+    justify-content: center;
+}
+
+#TargetPanel {
+    position: absolute;
+    top: 300px;
+    left: -50px;
+    width: 150px;
+    background-color: rgba(50, 50, 50, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#StatsPanel {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
 }

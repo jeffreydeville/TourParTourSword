@@ -16,6 +16,10 @@ namespace Health.Runtime
         public event Action<float> OnHPChangeNormalized;
         public event Action OnDeath;
 
+        
+        public float CurrentHP => _currentHealth;
+        public float MaxHP => _maxHealth;
+        
         #endregion
 
 
@@ -90,7 +94,7 @@ namespace Health.Runtime
 
         private float _currentHealth;
         private float _maxHealth;
-        private bool _isDead;
+        public bool _isDead;
 
         #endregion
     }

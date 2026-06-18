@@ -9,10 +9,15 @@
                 <ui:Label text="CAST" name="CastLabel"/>
             </ui:VisualElement>
         </ui:VisualElement>
-        <ui:VisualElement name="ActionPanel">
+        <ui:VisualElement name="ActionPanel" style="flex-direction: row;">
             <ui:Button name="AttackButton">
                 <ui:Label text="Attack" name="AttackButton" emoji-fallback-support="false" double-click-selects-word="false"/>
             </ui:Button>
+            <ui:Button name="Counter">
+                <ui:Label text="Counter" name="Counter" emoji-fallback-support="false" double-click-selects-word="false"/>
+            </ui:Button>
         </ui:VisualElement>
+        <ui:VisualElement name="TargetPanel" style="flex-grow: 1;"/>
     </ui:VisualElement>
+    <ui:VisualElement name="StatsPanel" style="flex-grow: 1;"/>
 </ui:UXML>
